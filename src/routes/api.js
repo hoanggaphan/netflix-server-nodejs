@@ -7,7 +7,7 @@ import * as AuthMiddleware from '../middleware/AuthMiddleware.js';
 import * as AuthValidation from '../validation/AuthValidation.js';
 import * as EpisodeValidation from '../validation/EpisodeValidation.js';
 import * as MovieValidation from '../validation/MovieValidation.js';
-import * as UserValidation from '../validation/UserValidation.hs';
+import * as UserValidation from '../validation/UserValidation.js';
 
 const router = express.Router();
 
