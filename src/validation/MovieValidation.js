@@ -1,5 +1,5 @@
 import { body } from 'express-validator';
-import MovieModel from '../models/MovieModel';
+import MovieModel from '../models/MovieModel.js';
 
 export const createAndUpdateMovie = [
   body('name', 'Tên phim tối đa 100 kí tự.')

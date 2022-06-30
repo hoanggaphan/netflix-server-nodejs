@@ -1,4 +1,4 @@
-import EpisodeModel from '../models/EpisodeModel';
+import EpisodeModel from '../models/EpisodeModel.js';
 import { validationResult } from 'express-validator';
 
 export const createEpisode = async (req, res) => {

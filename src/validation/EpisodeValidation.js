@@ -1,5 +1,5 @@
 import { body } from 'express-validator';
-import EpisodeModel from '../models/EpisodeModel';
+import EpisodeModel from '../models/EpisodeModel.js';
 
 export const createAndUpdateEpisode = [
   body('name', 'Tên tập phim tối đa 100 kí tự.')

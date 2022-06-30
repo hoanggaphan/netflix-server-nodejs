@@ -1,6 +1,6 @@
 import { validationResult } from 'express-validator';
-import EpisodeModel from '../models/EpisodeModel';
-import MovieModel from '../models/MovieModel';
+import EpisodeModel from '../models/EpisodeModel.js';
+import MovieModel from '../models/MovieModel.js';
 
 export const createMovie = async (req, res) => {
   const errors = validationResult(req);

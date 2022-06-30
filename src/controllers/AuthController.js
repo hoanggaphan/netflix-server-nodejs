@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import { validationResult } from 'express-validator';
-import * as jwtHelper from '../helpers/jwtHelper';
-import UserModel from '../models/UserModel';
+import * as jwtHelper from '../helpers/jwtHelper.js';
+import UserModel from '../models/UserModel.js';
 
 const saltRounds = 10;
 

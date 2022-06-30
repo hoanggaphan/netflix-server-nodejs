@@ -1,4 +1,4 @@
-import * as jwtHelper from '../helpers/jwtHelper';
+import * as jwtHelper from '../helpers/jwtHelper.js';
 
 /**
  * Middleware: Authorization user by Token

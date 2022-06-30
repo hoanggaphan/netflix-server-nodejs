@@ -1,13 +1,13 @@
 import express from 'express';
-import * as AuthController from '../controllers/AuthController';
-import * as EpisodeController from '../controllers/EpisodeController';
-import * as MovieController from '../controllers/MovieController';
-import * as UserController from '../controllers/UserController';
-import * as AuthMiddleware from '../middleware/AuthMiddleware';
-import * as AuthValidation from '../validation/AuthValidation';
-import * as EpisodeValidation from '../validation/EpisodeValidation';
-import * as MovieValidation from '../validation/MovieValidation';
-import * as UserValidation from '../validation/UserValidation';
+import * as AuthController from '../controllers/AuthController.js';
+import * as EpisodeController from '../controllers/EpisodeController.js';
+import * as MovieController from '../controllers/MovieController.js';
+import * as UserController from '../controllers/UserController.js';
+import * as AuthMiddleware from '../middleware/AuthMiddleware.js';
+import * as AuthValidation from '../validation/AuthValidation.js';
+import * as EpisodeValidation from '../validation/EpisodeValidation.js';
+import * as MovieValidation from '../validation/MovieValidation.js';
+import * as UserValidation from '../validation/UserValidation.hs';
 
 const router = express.Router();
 

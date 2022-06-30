@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import { validationResult } from 'express-validator';
-import EpisodeModel from '../models/EpisodeModel';
-import UserModel from '../models/UserModel';
+import EpisodeModel from '../models/EpisodeModel.js';
+import UserModel from '../models/UserModel.js';
 
 const saltRounds = 10;
 
