@@ -4,7 +4,10 @@ import initRoutes from './src/routes/api';
 
 main().catch((err) => console.log(err));
 async function main() {
-  await mongoose.connect('mongodb://localhost:27017/netflix');
+  // const uri = 'mongodb://localhost:27017/netflix';
+  const uri =
+    'mongodb+srv://hloveh3k:hloveh3k@cluster0.kgurc.mongodb.net/netflix?retryWrites=true&w=majority';
+  await mongoose.connect(uri);
   console.log(`Database connect successful`);
 }
 
