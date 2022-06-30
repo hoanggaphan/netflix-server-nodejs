@@ -1,6 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import initRoutes from './src/routes/api';
+import initRoutes from './src/routes/api.js';
 
 main().catch((err) => console.log(err));
 async function main() {
